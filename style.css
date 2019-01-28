@@ -1,0 +1,178 @@
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+html {
+  background: linear-gradient(90deg, #FAF9F9 86.5%, #EDE7E7 13.5%);
+  margin: 0%;
+  width: 100%;
+}
+
+header {
+  background: linear-gradient(90deg, #38404c 86.5%, #21262d 13.5%);
+  overflow: hidden;
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+  margin-top: 0;
+}
+
+
+
+h1 {
+  font-weight: lighter;
+  padding: 1em;
+}
+
+.avatar {
+  vertical-align: middle;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 2px solid grey;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.avatarprofile a:hover {
+  border-bottom: 3px solid lightblue;
+}
+
+.avatarprofile {
+  display: flex;
+  justify-content: flex-end;
+  width: 72%;
+}
+
+.account {
+  font-size: 11px;
+  color: white;
+  font-family: sans-serif;
+  position: relative;
+  text-decoration: none;
+  z-index: 110;
+
+}
+
+
+.searchicon {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 3em;
+  width: 70%;
+}
+
+.searchicon a {
+  color: grey;
+}
+
+.searchicon a:hover {
+border-bottom: 3px solid lightblue;
+}
+
+nav1 a {
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  z-index: 1;
+}
+
+nav1 a:hover {
+  border-bottom: 3px solid lightblue;
+  /* padding-bottom: 3em; */
+}
+
+#farright {
+  display: flex;
+  text-align: center;
+  float: right;
+  /* margin-right: .25em; */
+  text-align: center;
+  /* padding: 2em; */
+  /* border-bottom: 0; */
+  width: 9.75%;
+  font-size: 1em;
+  /* border: 1px solid red; */
+}
+
+nav2 {
+  float: right;
+  padding: 2em;
+  width: 11%;
+  /* border: 1px solid red; */
+}
+
+nav2 a {
+display: flex;
+vertical-align: right;
+flex-direction: column;
+/* flex-wrap: wrap; */
+text-align: center;
+margin-right: 5em;
+color: #BCB4B4;
+padding: 1em;
+text-decoration: none;
+font-size: 14px;
+font-family: sans-serif;
+width: 100%;
+/* border: 1px solid red; */
+}
+
+
+nav2 a:hover {
+  display: inline-block;
+  border-left: 3px solid lightblue;
+  color: black;
+
+}
+
+.images {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 2em;
+width: 75%;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 black;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+}
+
+h3 {
+  font-family: cursive;
+  font-weight: normal;
+}
+
+.title {
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: .5em;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
